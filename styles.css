@@ -20,7 +20,7 @@ img {
 
 h1 {
   color: var(--white);
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   font-weight: 700;
 }
 
@@ -40,12 +40,15 @@ p {
 }
 
 .rating + label {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   padding: 10px;
   border-radius: 50%;
   background-color: var(--otherGrey);
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
 }
 
 .rating:checked + label {
@@ -67,6 +70,7 @@ p {
   font-weight: 700;
   color: var(--veryDarkBlue);
   letter-spacing: 0.2rem;
+  margin-bottom: 15px;
 }
 
 .submit:hover {
