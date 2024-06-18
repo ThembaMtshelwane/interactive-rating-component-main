@@ -1,0 +1,43 @@
+:root {
+  /* Primary */
+  --orange: hsl(25, 97%, 53%);
+
+  /* Neutral */
+  --white: hsl(0, 0%, 100%);
+  --lightGrey: hsl(217, 12%, 63%);
+  --darkBlue: hsl(213, 19%, 18%);
+  --veryDarkBlue: hsl(216, 12%, 8%);
+  --otherGrey: hsla(217, 12%, 63%, 0.167);
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  margin-top: 15px;
+}
+
+.selected {
+  color: var(--orange);
+  padding: 10px;
+  width: 170px;
+  background-color: var(--otherGrey);
+  border-radius: 100px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+h1 {
+  margin: 15px 0px;
+  color: var(--white);
+}
+
+.description {
+  text-align: center;
+  line-height: 1.2rem;
+  margin: 15px 0px;
+}

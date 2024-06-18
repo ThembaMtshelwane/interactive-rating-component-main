@@ -7,13 +7,14 @@
   --lightGrey: hsl(217, 12%, 63%);
   --darkBlue: hsl(213, 19%, 18%);
   --veryDarkBlue: hsl(216, 12%, 8%);
+  --otherGrey: hsla(217, 12%, 63%, 0.167);
 }
 
 img {
   /* border: 2px solid; */
   padding: 7px;
   border-radius: 50%;
-  background-color: hsla(217, 12%, 63%, 0.167);
+  background-color: var(--otherGrey);
   margin: 10px 0px;
 }
 
@@ -40,7 +41,7 @@ p {
   height: 50px;
   border: none;
   border-radius: 50%;
-  background-color: hsla(217, 12%, 63%, 0.116);
+  background-color: var(--otherGrey);
   color: var(--lightGrey);
   font-weight: 700;
 }
