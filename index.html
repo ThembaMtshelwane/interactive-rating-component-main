@@ -21,7 +21,7 @@
   </head>
   <body>
     <section class="mainContainer">
-      <form>
+      <form action="./secondPage.html">
         <img src="./images/icon-star.svg" alt="" />
         <h1>How did we do?</h1>
         <p>
@@ -29,26 +29,50 @@
           is appreciated to help us improve our offering!
         </p>
         <section class="ratings">
-          <input type="button" name="rating" class="rating" value="1" />
-          <input type="button" name="rating" class="rating" value="3" />
-          <input type="button" name="rating" class="rating" value="2" />
-          <input type="button" name="rating" class="rating" value="4" />
-          <input type="button" name="rating" class="rating" value="5" />
+          <input
+            type="radio"
+            id="rating1"
+            name="rating"
+            class="rating"
+            value="1"
+          />
+          <label for="rating1">1</label>
+          <input
+            type="radio"
+            id="rating2"
+            name="rating"
+            class="rating"
+            value="2"
+          />
+          <label for="rating2">2</label>
+          <input
+            type="radio"
+            id="rating3"
+            name="rating"
+            class="rating"
+            value="3"
+          />
+          <label for="rating3">3</label>
+          <input
+            type="radio"
+            id="rating4"
+            name="rating"
+            class="rating"
+            value="4"
+          />
+          <label for="rating4">4</label>
+          <input
+            type="radio"
+            id="rating5"
+            name="rating"
+            class="rating"
+            value="5"
+          />
+          <label for="rating5">5</label>
         </section>
         <button type="submit" class="submit">SUBMIT</button>
       </form>
     </section>
-
-    <!-- Rating state end -->
-
-    <!-- Thank you state start -->
-
-    <!-- You selected -->
-    <!-- Add rating here -->
-    <!-- out of 5 Thank you! We appreciate you taking the time to give a rating. If
-    you ever need more support, don’t hesitate to get in touch! -->
-
-    <!-- Thank you state end -->
 
     <footer class="attribution">
       Challenge by
